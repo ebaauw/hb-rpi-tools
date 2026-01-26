@@ -1,0 +1,55 @@
+{
+  "name": "hb-rpi-tools",
+  "description": "Homebridge RPi Tools",
+  "license": "Apache-2.0",
+  "version": "0.0.0",
+  "keywords": [
+    "raspberrypi",
+    "raspberry",
+    "pi",
+    "lg",
+    "pigpio",
+    "gpio"
+  ],
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./*": "./lib/*.js"
+  },
+  "files": [
+    "index.js",
+    "lib",
+    "cli"
+  ],
+  "bin": {
+    "rpi": "cli/rpi.js"
+  },
+  "engines": {
+    "node": "^24||^22||^20"
+  },
+  "dependencies": {
+    "hb-lib-tools": "~2.2.16"
+  },
+  "scripts": {
+    "prepare": "standard && rm -rf out && jsdoc -c jsdoc.json",
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebaauw/hb-rpi-tools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ebaauw/hb-rpi-tools/issues"
+  },
+  "homepage": "https://github.com/ebaauw/hb-rpi-tools#readme",
+  "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/ebaauw"
+    },
+    {
+      "type": "paypal",
+      "url": "https://www.paypal.me/ebaauw/EUR"
+    }
+  ]
+}
