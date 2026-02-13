@@ -4,6 +4,7 @@
 // Homebridge RPi Tools.
 
 /** Homebridge RPi Tools.
+  * see the {@tutorial hb-rpi-tools} tutorial.
   *
   * @module hb-rpi-tools
   */

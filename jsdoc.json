@@ -8,10 +8,11 @@
       "README.md",
       "index.js",
       "lib",
-      "cli"
+      "doc"
     ]
   },
   "opts": {
+    "tutorials": "doc",
     "recurse": true
   },
   "templates": {
