@@ -5,11 +5,6 @@
 //
 // Homebridge RPi Tools.
 
-import { createRequire } from 'node:module'
-
 import { RpiTool } from 'hb-rpi-tools/RpiTool'
 
-const require = createRequire(import.meta.url)
-const packageJson = require('../package.json')
-
-new RpiTool(packageJson).main()
+new RpiTool().main()
